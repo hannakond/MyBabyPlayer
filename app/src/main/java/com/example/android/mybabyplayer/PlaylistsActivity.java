@@ -64,7 +64,7 @@ public class PlaylistsActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(PlaylistsActivity.this, "Songs and musics can be add to an existing playlist or a newly created. Playlists can be also shared or searched for.", Toast.LENGTH_LONG).show();
+        Toast.makeText(PlaylistsActivity.this, "Songs and musics can be added to an existing playlist or a newly created. Playlists can be also shared or searched for.", Toast.LENGTH_LONG).show();
 
         Resources res = getResources();
         playlists_title = res.getStringArray(R.array.playlists_title);
