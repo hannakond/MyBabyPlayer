@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colourDisabled"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_menu"
+            style="@style/TopMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/playingnow_activity_title"
+            style="@style/TopMenu"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/act_playing_now"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_share"
+            style="@style/TopMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_share" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_search"
+            style="@style/TopMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_search" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playbutton" />
+
+
+    <SeekBar
+        android:id="@+id/playingnow_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colourDisabled" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colourDisabled"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_discover"
+            style="@style/PlayMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_discover" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_playlists"
+            style="@style/PlayMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_playlist" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_play"
+            style="@style/PlayMenu"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_play" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_add"
+            style="@style/PlayMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_add" />
+
+        <ImageButton
+            android:id="@+id/playingnow_ic_library"
+            style="@style/PlayMenu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_library" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/colourDisabled" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.mybabyplayer.MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo_text" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/logo_baby" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="@string/main_username"
+        android:inputType="textCapWords"
+        android:textColor="@color/colourInput" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:hint="@string/main_password"
+        android:inputType="textCapWords"
+        android:textColor="@color/colourInput" />
+
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt_bg"
+        android:text="@string/main_login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_signup"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
