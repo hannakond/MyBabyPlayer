@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(MainActivity.this, "This app is a simple music player. First screen is for user's input of login and password data or signing up addressing a server", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "This app is a simple music player. First screen is for user's input of login and password data or signing up addressing an external library like Google Firebase. For further networking purposes we can use Retrofit or similar type-safe HTTP client.", Toast.LENGTH_LONG).show();
 
 
     }

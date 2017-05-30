@@ -55,6 +55,6 @@ public class NowPlaying extends AppCompatActivity {
         });
 
         Toast.makeText(NowPlaying.this,
-                "This function allows to play songs and music from the external source. The user can change songs order by using a slider. Top and bottom menus offer some additional functions to be developed properly, for ex. discover, playlists, play now, add playlist and library.", Toast.LENGTH_LONG).show();
+                "This function allows to play songs and music from an external source, which can be, for example, Spotify or Last.fm. The user can change songs order by using a slider (for ex. from AndroidSlidingUpPanel library as seen in GoogleMusic app). Actual song's playing will be handled using Media Player. Top and bottom menus offer some additional functions to be developed properly, for ex. discover, playlists, play now, add playlist and library.", Toast.LENGTH_LONG).show();
     }
 }

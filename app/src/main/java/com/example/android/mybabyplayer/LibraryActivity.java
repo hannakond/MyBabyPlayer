@@ -63,7 +63,7 @@ public class LibraryActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(LibraryActivity.this, "This is where all the songs and musics are saved. One can play them both in a playlist or separately", Toast.LENGTH_LONG).show();
+        Toast.makeText(LibraryActivity.this, "This is where all the songs and musics are saved. For playing them both in a playlist or separately, we can use a library like AndroidSlidingUpPanel or RecyclerView extension library to provide more advanced features.", Toast.LENGTH_LONG).show();
 
         Resources res = getResources();
         library_title = res.getStringArray(R.array.library_title);

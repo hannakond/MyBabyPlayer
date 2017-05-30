@@ -63,7 +63,7 @@ public class DiscoverActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(DiscoverActivity.this, "This activity allows a user to discover other playlists than his or her own.", Toast.LENGTH_LONG).show();
+        Toast.makeText(DiscoverActivity.this, "This activity allows the user to discover other playlists than of his or her own. Here we can implement some android library for getting full information about music track by track title, like TrackSearcher.", Toast.LENGTH_LONG).show();
 
         Resources res = getResources();
         discover_title = res.getStringArray(R.array.discover_title);
